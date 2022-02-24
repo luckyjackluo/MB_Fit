@@ -1,0 +1,49 @@
+<> fragments(2) <>
+
+A2B1
+A2B1
+
+<> atoms (6) <>
+
+A1a:A2a:B1a:A3b:A4b:B2b
+
+<> permutations (8) <>
+
+0:1:2:3:4:5
+0:1:2:4:3:5
+1:0:2:3:4:5
+1:0:2:4:3:5
+3:4:5:0:1:2
+3:4:5:1:0:2
+4:3:5:0:1:2
+4:3:5:1:0:2
+
+<> variables (15) <>
+
+ 0 :  A1(a) <===>  A2(a) : x-intra-A+A-1
+ 1 :  A1(a) <===>  A3(b) : x-inter-A+A-0
+ 2 :  A1(a) <===>  A4(b) : x-inter-A+A-0
+ 3 :  A1(a) <===>  B1(a) : x-intra-A+B-1
+ 4 :  A1(a) <===>  B2(b) : x-inter-A+B-0
+ 5 :  A2(a) <===>  A3(b) : x-inter-A+A-0
+ 6 :  A2(a) <===>  A4(b) : x-inter-A+A-0
+ 7 :  A2(a) <===>  B1(a) : x-intra-A+B-1
+ 8 :  A2(a) <===>  B2(b) : x-inter-A+B-0
+ 9 :  A3(b) <===>  A4(b) : x-intra-A+A-1
+10 :  A3(b) <===>  B1(a) : x-inter-A+B-0
+11 :  A3(b) <===>  B2(b) : x-intra-A+B-1
+12 :  A4(b) <===>  B1(a) : x-inter-A+B-0
+13 :  A4(b) <===>  B2(b) : x-intra-A+B-1
+14 :  B1(a) <===>  B2(b) : x-inter-B+B-0
+
+<> 1 degree <>
+
+5 possible 1 degree monomials
+3 <<== accepted 1 degree terms
+
+<> 2 degree <>
+
+28 possible 2 degree monomials
+21 <<== accepted 2 degree terms
+
+ Total number of terms: 24

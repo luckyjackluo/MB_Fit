@@ -1,0 +1,10 @@
+jobtype sp
+sym_ignore true
+no_reorient true
+CM5 true
+mem_total 80000
+!XDM module
+DFTVDW_JOBNUMBER    1
+DFTVDW_METHOD       1
+DFTVDW_PRINT        2
+$end
